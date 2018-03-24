@@ -1,7 +1,7 @@
 FROM manicmonkey/raspbian-jdk8
 MAINTAINER James Baxter <j.w.baxter@gmail.com>
 
-ENV WILDFLY_VERSION=9.0.2.Final
+ENV WILDFLY_VERSION=12.0.0.Final
 ENV WILDFLY_HOME=/opt/wildfly
 
 WORKDIR /opt
